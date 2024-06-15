@@ -1,0 +1,26 @@
+.h-wrapper {
+    border: 1px solid red;
+
+    /* background: var(--black); 
+    Ensure --black is defined elsewhere or replace with #000 */
+    color: white;
+  }
+  
+  .h-container {
+    border: 1px solid red;
+    /* display: flex; */
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--secondary); /* Ensure --secondary is defined or replace with an appropriate color */
+  }
+  
+  .h-menu {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .h-menu > *:hover {
+    cursor: pointer;
+  }
+  
