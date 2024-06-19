@@ -11,7 +11,7 @@ const Companies = () => {
             <img src="./equinix.png" alt="" />
             <img src="./realty.png" alt="" />
         </div>
-    </section>
+    </section>       
   )
 }
 
