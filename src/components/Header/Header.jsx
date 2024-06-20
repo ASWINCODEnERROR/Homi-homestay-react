@@ -5,7 +5,7 @@ import OutsideClickHandler from "react-outside-click-handler";
 
  
 const Header = () => {
-  const [menuOpened, setmenuOpened]=useState(false)
+  const [menuOpened, setMenuOpened]=useState(false)
 
   const getMenuStyles =(menuOpened) =>{
     if(document.documentElement.clientWidth <=800)
@@ -20,7 +20,7 @@ const Header = () => {
 
         <OutsideClickHandler
         onOutsideClick={()=>{
-          setmenuOpened(false)
+          setMenuOpened(false)
         }}>
         <div className="h-menu"
         style={getMenuStyles(menuOpened)}
@@ -36,7 +36,7 @@ const Header = () => {
         </div>
         </OutsideClickHandler>
 
-        <div className="menu-icon" onClick={()=>setmenuOpened((prev)=> !prev)}>
+        <div className="menu-icon" onClick={()=>setMenuOpened((prev)=> !prev)}>
           <BiMenuAltRight size={30} color="white" />
         </div>
       </div>

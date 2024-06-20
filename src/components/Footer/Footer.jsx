@@ -1,5 +1,5 @@
 import React from "react";
-import './Footer.css'
+import "./Footer.css";
 
 const Footer = () => {
   return (
@@ -16,7 +16,8 @@ const Footer = () => {
         </div>
 
         <div className="flexColstart f-right">
-          <span className="primaryText">Information</span><br/>
+          <span className="primaryText">Information</span>
+          <br />
           <span className="secondaryText"> Bangaluru post 787</span>
 
           <div className="flexCenter f-menu">
